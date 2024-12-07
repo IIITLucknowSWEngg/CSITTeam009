@@ -1,15 +1,18 @@
-Here's the modified table tailored for a **Blinkit clone**:
+# Cross-Reference Matrix for Blinkit Project
 
-| **Test Scenario**           | **Happy Path**                             | **Error Path**                                  | **Abused Path**                                |
-|------------------------------|--------------------------------------------|------------------------------------------------|------------------------------------------------|
-| **User Registration**        | User successfully registers on the app.   | Registration fails due to invalid inputs.      | User temporarily blocked for suspicious activity. |
-| **Product Search**           | Products are searched and displayed.      | Search fails due to server errors.             | Search throttled for abuse.                     |
-| **Adding Items to Cart**     | Items successfully added to the cart.     | Adding fails due to stock issues.              | User restricted for excessive add/remove abuse. |
-| **Checkout and Order Placement** | Order successfully placed.                | Checkout fails due to payment or stock errors. | User flagged for repeated fraudulent orders.    |
-| **Payment Processing**       | Payment processed successfully.           | Payment fails due to card or wallet issues.    | User flagged for payment abuse.                |
-| **Order Tracking**           | Real-time order tracking displayed.       | Tracking fails due to network issues.          | Tracking disabled for malicious attempts.       |
-| **Push Notifications**       | Notifications delivered successfully.     | Notification delivery fails and retries.       | Spam throttled or restricted.                   |
-| **Customer Support**         | Support ticket created successfully.      | Submission fails due to insufficient info.     | User restricted for spamming support tickets.   |
-| **Vendor Registration**      | Vendor registered successfully.           | Registration fails due to missing or invalid docs.| Vendor flagged and banned for abuse.         |
-
-This structure aligns with Blinkit-like grocery delivery services, covering user actions, errors, and potential abuse cases effectively.
+| *URD Topic*            | *SRS Section Number* | *SRS Topic*               | *Architecture Section* | *Architecture Topic*           | *Design Sec Number* | *Design Topic*                | *Test Sec Number* | *Test Topics*                |
+|---------------------------|------------------------|-----------------------------|---------------------------|-----------------------------------|------------------------|---------------------------------|-----------------------|-------------------------------|
+| User Registration         | 3.1                   | User Account Management     | 4.1                       | User Authentication               | 2.1                    | Registration Process           | 1.1                   | User Registration            |
+| Login                     | 3.2                   | Login Functionality         | 4.2                       | Authentication Protocol           | 2.2                    | Login Mechanism               | 1.2                   | Login Functionality          |
+| Password Recovery         | 3.3                   | Password Recovery Process   | 4.3                       | Password Reset Mechanism          | 2.3                    | Forgot Password               | 1.3                   | Password Recovery            |
+| Product Search            | 4.1                   | Search Products             | 5.1                       | Product Search Algorithm          | 3.1                    | Search Mechanism              | 2.1                   | Product Search               |
+| Adding to Cart            | 4.2                   | Cart Functionality          | 5.2                       | Cart Management                   | 3.2                    | Add to Cart                  | 2.2                   | Cart Functionality           |
+| Placing Orders            | 4.3                   | Order Placement             | 5.3                       | Order Management                  | 3.3                    | Order Placement Mechanism     | 2.3                   | Placing Orders              |
+| Order Tracking            | 4.4                   | Order Tracking              | 5.4                       | Tracking Updates                  | 3.4                    | Order Tracking System         | 2.4                   | Order Tracking              |
+| Delivery Management       | 5.1                   | Delivery Status Updates     | 6.1                       | Delivery Scheduling               | 4.1                    | Delivery Management Mechanism | 3.1                   | Delivery Management         |
+| Product Suggestions       | 5.2                   | Suggestions Functionality   | 6.2                       | Recommendation Algorithm          | 4.2                    | Suggestions System            | 3.2                   | Product Suggestions          |
+| Vendor Inventory          | 5.3                   | Inventory Management        | 6.3                       | Stock Updates                     | 4.3                    | Vendor Inventory System       | 3.3                   | Inventory Management         |
+| Discount Management       | 5.4                   | Discount Functionality      | 6.4                       | Promotion Algorithm               | 4.4                    | Discount Application System   | 3.4                   | Discount Functionality       |
+| Payment Gateway           | 6.1                   | Payment Processing          | 7.1                       | Payment Integration               | 5.1                    | Payment Gateway System        | 4.1                   | Payment Processing           |
+| Notifications             | 6.2                   | Notifications Functionality | 7.2                       | Alert Management                  | 5.2                    | Notification Mechanism        | 4.2                   | Notifications               |
+| Customer Support          | 6.3                   | Support Ticket Management   | 7.3                       | Support System Protocol           | 5.3                    | Support System                | 4.3                   | Customer Support            |
