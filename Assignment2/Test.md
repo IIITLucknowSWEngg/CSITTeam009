@@ -78,59 +78,164 @@ Testing is a critical phase in the development of the Blinkit Application to ens
 
 ---
 
-This structured testing approach ensures the Blinkit Application meets functional requirements while delivering a reliable, secure, and user-friendly experience.
-1. Introduction
+# Blinkit - Test Suite
 
-Project Name: Blinket
+---
 
-Version: vX.X
+## Feature: User Registration
 
-Author: [Your Name]
+### Scenario: User registers successfully
 
-Date: [MM/DD/YYYY]
+#### Description:
+Ensure users can register successfully and are redirected to the login page after completion.
 
-Objective: Outline the test strategy, scope, and plan for validating the functionality, performance, and usability of the Blinket software.
+### Steps:
 
-2. Scope
+1. *Given:*  
+   The user is on the registration page.
 
-Features to be tested:
-[Search Browsing]
-[Payment Processing]
-[Adding items to cart]
-Features not to be tested:
-[Product] (Reason: Out of scope for this release)
+2. *When:*  
+   The user enters valid details such as a valid name, email, and password.
 
-3. Test Strategy
+3. *Then:*  
+   - The user sees a success message: "Registration successful".  
+   - The user is redirected to the login page (/login).
 
+```javascript
+const chai = require('chai');
+const expect = chai.expect;
+const registrationPage = require('../pages/registrationPage');
 
-Environments:
+describe('Blinkit User Registration', function() {
+  it('should register the user successfully', function() {
+    registrationPage.open();
+    registrationPage.fillRegistrationForm('Saloni Sharma', 'saloni@example.com', 'securePassword123');
+    registrationPage.submitForm();
+    expect(registrationPage.getSuccessMessage()).to.equal('Registration successful');
+    expect(browser.getUrl()).to.include('/login');
+  });
+});
 
-Operating System: [Windows/Linux/Mac]
-Browsers: [Chrome, Firefox, Safari]
-Hardware: [Device specifications]
+# Blinkit - User Login Test
 
-4. Test Cases
+## Feature: User Login
 
-Test Case ID	Description	Steps	Expected Result	Status
-TC-001	Login functionality	
-1. Open app;
-1. Enter credentials;
-3. Submit	User is logged in successfully	Pass/Fail
-   
-TC-002	Password reset
+### Scenario: User logs in with valid credentials
 
-1. Navigate to reset;
-2. Enter email	Password reset email is sent successfully	Pass/Fail
+*Description:*  
+Ensure users can log in successfully and are redirected to the dashboard upon authentication.
 
-5. Tools
+### Steps:
 
-Test Management Tool: [JIRA/TestRail/Other]
-Automation Tools: [Selenium, Cypress, etc.]
-Bug Reporting Tool: [Bugzilla, GitHub Issues, etc.]
+*Given:*  
+- The user is on the login page.
 
-6. Risks and Mitigation
+*When:*  
+- The user enters valid credentials (email and password).
 
-Risk: [Describe any potential risk]
-Mitigation: [Propose a solution]
+*Then:*  
+1. The user sees a welcome message: "Welcome, Saloni Sharma".  
+2. The user is redirected to the dashboard (/dashboard).
 
+### JavaScript Test Code
+
+```javascript
+const chai = require('chai');
+const expect = chai.expect;
+const loginPage = require('../pages/loginPage');
+
+describe('Blinkit User Login', function() {
+  it('should login user successfully', function() {
+    loginPage.open();
+    loginPage.enterCredentials('saloni@example.com', 'securePassword123');
+    loginPage.submitLogin();
+    expect(loginPage.getWelcomeMessage()).to.include('Welcome, Saloni Sharma');
+    expect(browser.getUrl()).to.include('/dashboard');
+  });
+});
+# Blinkit - Product Browsing Test
+
+## Feature: Product Browsing
+
+### Scenario: User browses and searches for products
+
+*Description:*  
+Ensure users can browse products, filter by category, and search by product name.
+
+### Steps:
+
+*Given:*  
+- The user is on the product catalog page.
+
+*When:*  
+1. The user browses the product listings.  
+2. The user filters products by category (e.g., "Fruits and Vegetables").  
+3. The user searches for a product by name.  
+
+*Then:*  
+1. The products are displayed correctly by category.  
+2. The search results are accurate based on the product name.
+
+---
+
+### JavaScript Test Code
+
+```javascript
+const chai = require('chai');
+const expect = chai.expect;
+const productPage = require('../pages/productPage');
+
+describe('Blinkit Product Browsing', function() {
+  it('should display products filtered by category and search results', function() {
+    productPage.open();
+    productPage.filterByCategory('Fruits and Vegetables');
+    expect(productPage.getFilteredCategory()).to.equal('Fruits and Vegetables');
+
+    productPage.searchProduct('Banana');
+    expect(productPage.getSearchResults()).to.include('Banana');
+  });
+});
+
+# Blinkit - Order Placement Test
+
+## Feature: Order Placement
+
+### Scenario: User places an order successfully
+
+*Description:*  
+Ensure users can add products to the cart and place an order successfully.
+
+### Steps:
+
+*Given:*  
+- The user is logged in and has products in the cart.
+
+*When:*  
+1. The user proceeds to checkout.  
+2. The user selects a delivery address and payment method.  
+
+*Then:*  
+1. The order is successfully placed.  
+2. The user sees a confirmation message: "Order placed successfully".  
+3. The user is redirected to the order confirmation page (/order-confirmation).
+
+---
+
+### JavaScript Test Code
+
+```javascript
+const chai = require('chai');
+const expect = chai.expect;
+const cartPage = require('../pages/cartPage');
+
+describe('Blinkit Order Placement', function() {
+  it('should place an order successfully', function() {
+    cartPage.open();
+    cartPage.proceedToCheckout('123 Street, Delhi');
+    cartPage.selectPaymentMethod('Credit Card');
+    cartPage.submitOrder();
+    expect(cartPage.getConfirmationMessage()).to.equal('Order placed successfully');
+    expect(browser.getUrl()).to.include('/order-confirmation');
+  });
+});
 
