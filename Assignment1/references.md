@@ -84,3 +84,5 @@ These enhancements build trust, empower users, and improve the overall user expe
 - **Dynamic Route Optimization:** Continuously update delivery routes based on live traffic data and disruptions.  
 
 These steps ensure a smoother user experience by reducing errors and enhancing reliability.
+
+https://lambda.blinkit.com/
