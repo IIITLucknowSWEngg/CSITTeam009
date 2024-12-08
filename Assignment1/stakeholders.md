@@ -1,4 +1,4 @@
-# Stakeholder Register for Blinkit Clone
+# Stakeholder Register for Blinkit 
 
 ## Introduction
 This document serves as a comprehensive Stakeholder Register for the Blinkit Clone project, outlining the various stakeholders involved in the development and operation of this online grocery delivery platform. Each stakeholder has a vital role in influencing the platform’s features, operations, and overall user experience. Understanding their interests, responsibilities, and influence helps ensure effective communication and collaboration, which will ultimately drive the success of the platform. Stakeholders are categorized into internal and external groups to reflect their direct or indirect engagement with the project.
