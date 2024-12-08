@@ -4,6 +4,13 @@ This diagram represents the lifecycle of an order in the Blinkit system
 ![WhatsApp Image 2024-12-08 at 08 47 44_c9f5f9d6](https://github.com/user-attachments/assets/96d98199-0e20-4b5d-9f65-0849b848a2d0)
 
 
+## Swimlane Diagram
+representing the Blinkit platform operations. It includes interactions between Customers, Store Partners, Delivery Agents, and Admin.
+
+![WhatsApp Image 2024-12-08 at 15 28 53_0f768852](https://github.com/user-attachments/assets/29224b81-ad85-4ae3-8bee-42d32f80471d)
+
+
+
 ## Activity Diagram
 This diagram represents the activity of placing an order in the Blinkit system.
 
