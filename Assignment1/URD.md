@@ -49,4 +49,4 @@
 ## 10. Customer Support (Buyers and Sellers)
 - Help Center: Buyers must have access to a help center with FAQs, email, phone, and live chat support.
 - Seller Support: Sellers should have customer support for issues such as platform management, account problems, and disputes.
-- Dispute Resolution: Both buyers and sellers should have access to a dispute resolution process for issues like returns, refunds, and order-related disputes.
+- Dispute Resolution: Both buyers and sellers should have access to a dispute resolution process for issues like returns, refunds, and order-related disputes. THE
