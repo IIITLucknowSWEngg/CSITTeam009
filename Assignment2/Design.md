@@ -1,36 +1,5 @@
 # Design Documentation for Blinkit
 
-## Table of Contents
-### 1. Introduction  
-- 1.1 Purpose  
-- 1.2 Scope  
-- 1.3 Overview  
-- 1.4 Reference Material  
-- 1.5 Definitions and Acronyms  
-
-### 2. System Overview  
-
-### 3. System Architecture  
-- 3.1 Architectural Design  
-- 3.2 Decomposition Description  
-- 3.3 Design Rationale  
-
-### 4. Data Design  
-- 4.1 Data Description  
-- 4.2 Data Dictionary  
-
-### 5. Component Design  
-- 5.1 Order Management System  
-
-### 6. Human Interface Design  
-- 6.1 Overview of User Interface  
-- 6.2 Screen Images  
-- 6.3 Screen Objects and Actions  
-
-### 7. Requirements Matrix  
-
----
-
 ## 1. Introduction  
 
 ### 1.1 Purpose  
