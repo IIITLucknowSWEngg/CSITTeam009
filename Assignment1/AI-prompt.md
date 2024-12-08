@@ -106,7 +106,7 @@ For common queries like "Milk," indexing the product name and category columns e
 
 ---
 
-### 7. Documenting Deployment and Hosting Setup for a Blinkit Clone  
+### 7. Documenting Deployment and Hosting Setup for  Blinkit  
 **File Name:** `Test.md`  
 
 **Prompt:** "How should I document the deployment and hosting setup for an online delivery platform?"  
