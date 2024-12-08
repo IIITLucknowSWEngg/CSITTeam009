@@ -1,7 +1,6 @@
 # CSITTeam009
 CSITTeam009
-# Team Name
-##IGNITE
+# Team Name IGNITE
 
 # Team Members
 Imrana Sumbul IT LIT2023059 imranasumbul1211@gmail.com imranasumbul
