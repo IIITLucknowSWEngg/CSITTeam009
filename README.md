@@ -1,4 +1,4 @@
-# 🏆 Blinkit Clone  
+# 🏆 Blinkit   
 ### Team Banner Project  
 **License:** MIT  
 **Status:** Active  
@@ -19,10 +19,10 @@
 ## 📋 Project Overview  
 
 ### **Project Title**  
-**Blinkit Clone**  
+**Blinkit**  
 
 ### **Description**  
-The Blinkit Clone project replicates the core functionalities of Blinkit, a leading grocery delivery platform. The aim is to create a seamless, user-friendly, and efficient online grocery shopping experience, featuring real-time inventory updates, personalized recommendations, and reliable delivery services.  
+The Blinkit project replicates the core functionalities of Blinkit, a leading grocery delivery platform. The aim is to create a seamless, user-friendly, and efficient online grocery shopping experience, featuring real-time inventory updates, personalized recommendations, and reliable delivery services.  
 
 
 ### **Project Scope**  
@@ -69,7 +69,7 @@ The Blinkit Clone project replicates the core functionalities of Blinkit, a lead
    Outlines detailed user requirements and desired features.  
 
 4. **Software Requirements Specification (`SoftwareRequirementSpecification.md`)**  
-   Functional and non-functional requirements of the Blinkit Clone platform.  
+   Functional and non-functional requirements of the Blinkit platform.  
 
 5. **Design Document (`Design.md`)**  
    Wireframes, UI/UX design considerations, and system design diagrams.  
