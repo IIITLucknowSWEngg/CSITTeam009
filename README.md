@@ -3,19 +3,17 @@
 **License:** MIT  
 **Status:** Active  
 
-
 ## 👥 Team Members  
 
-| **Profile**          | **Name**              | **Enrolment No.** | **Email**                     | **GitHub**         |
-|-----------------------|-----------------------|-------------------|-------------------------------|--------------------|
-| ![Imrana Sumbul](#)  | Imrana Sumbul         | LIT2023059        | imranasumbul1211@gmail.com    | [imranasumbul](#) |
-| ![Sanyam Gupta](#)    | Sanyam Gupta          | LCS2023006        | sanyamsamsunga71@gmail.com    | [thesanyam240705](#) |
-| ![Ankit](#)           | Ankit                 | LCS2023002        | ankitmahich588@gmail.com      | [ankitmahich](#) |
-| ![Saloni](#)          | Saloni                | LIT2023042        | salonituraiha82@gmail.com     | [saloni1902](#) |
-| ![Anamika Kumari](#)  | Anamika Kumari        | LIT2023036        | anamikasaini34567@gmail.com   | [Anamikasaini21](#) |
-| ![Nayaab Zameer Qazi](#) | Nayaab Zameer Qazi | LCS2023036        | nybzmr02@gmail.com            | [nybzmr](#) |
-| ![Mohd Haider](#)     | Mohd Haider           | LCS2023038        | mohdhaider89370@gmail.com     | [haider038](#) |
-
+| **Name**                | **Enrolment No.** | **Email**                     | **GitHub**         |
+|--------------------------|-------------------|-------------------------------|--------------------|
+| Sanyam Gupta            | LCS2023006        | sanyamsamsunga71@gmail.com    | [thesanyam240705](https://github.com/thesanyam240705) |
+| Ankit                   | LCS2023002        | ankitmahich588@gmail.com      | [ankitmahich](https://github.com/ankitmahich) |
+| Saloni                  | LIT2023042        | salonituraiha82@gmail.com     | [saloni1902](https://github.com/saloni1902) |
+| Anamika Kumari          | LIT2023036        | anamikasaini34567@gmail.com   | [Anamikasaini21](https://github.com/Anamikasaini21) |
+| Nayaab Zameer Qazi      | LCS2023036        | nybzmr02@gmail.com            | [nybzmr](https://github.com/nybzmr) |
+| Mohd Haider             | LCS2023038        | mohdhaider89370@gmail.com     | [haider038](https://github.com/haider038) |
+| Imrana Sumbul           | LIT2023059        | imranasumbul1211@gmail.com    | [imranasumbul](https://github.com/imranasumbul) |
 
 
 ## 📋 Project Overview  
