@@ -125,7 +125,7 @@ The app's interface emphasizes ease of navigation and quick access to key functi
 
 ![LoginPage](https://github.com/user-attachments/assets/471d9dd4-8765-4a72-b911-e3a91d52c25e)
 
-##Dashboard
+## Dashboard
 
 | Section           | Description                                          | Example                        |
 |-------------------|------------------------------------------------------|--------------------------------|
