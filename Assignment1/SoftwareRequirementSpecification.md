@@ -31,7 +31,7 @@ The product will function as an on-demand grocery delivery app, similar to Blink
 - **Rider App**: Separate mobile app for riders to view and track delivery assignments.
 
 ### 2.4 Design and Implementation Constraints
-- Must be scalable to support high traffic.
+- Must be scalable to support high traffic .
 - Should integrate with popular payment gateways (e.g., PayPal, Stripe, UPI).
 - Real-time tracking of orders and riders using GPS.
 - Should support multiple warehouses and delivery zones.
