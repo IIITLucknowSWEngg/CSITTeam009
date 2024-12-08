@@ -6,7 +6,7 @@
 This document provides a detailed description of the functionality and requirements for developing a Blinkit-like grocery delivery platform, which allows users to order groceries and have them delivered to their doorstep within a short timeframe.
 
 ### 1.2 Scope
-The application will allow users to browse groceries, add them to their cart, select a delivery time slot, and make payments through various modes. The platform will consist of a mobile app for customers and a dashboard for admin operations.
+The application allow users to browse groceries, add them to their cart, select a delivery time slot, and make payments through various modes. The platform will consist of a mobile app for customers and a dashboard for admin operations.
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 - **User**: End-user or customer who orders groceries.
