@@ -145,6 +145,74 @@ The app's interface emphasizes ease of navigation and quick access to key functi
 ## Order History
 ![order again](https://github.com/user-attachments/assets/6fc78f9d-649d-4766-9246-166a2da8b250)
 
+## 7. Database Design
+
+### 7.1 Overview
+The Blinkit platform utilizes a combination of relational, NoSQL, and in-memory databases to ensure scalability, high performance, and flexibility. The following databases are used:
+
+- **PostgreSQL**: Relational database for structured data like user information, orders, and payments.
+- **MongoDB**: NoSQL database for dynamic product catalogs, user preferences, and logs.
+- **Redis**: In-memory database for caching user sessions, product search results, and real-time tracking data.
+- **Elasticsearch**: Search engine database for optimized product search functionality.
+
+### 7.2 Database Systems
+
+#### **PostgreSQL** (Relational Database)
+**Reason**: Stores structured data that requires ACID compliance, such as user details, product inventory, order information, and payment transactions.
+
+##### Key Tables:
+- **Users**: Stores user details such as name, email, and address.
+- **Products**: Stores product details including name, category, price, and stock quantity.
+- **Orders**: Manages orders, including status, ETA, and payment data.
+- **Payments**: Stores payment transaction data for each order.
+
+##### Example Schema:
+| Column Name       | Data Type   | Description                             |
+|-------------------|-------------|-----------------------------------------|
+| user_id           | INTEGER     | Unique identifier for the user (PK)     |
+| name              | VARCHAR(100)| User's name                             |
+| email             | VARCHAR(100)| User's email address                    |
+| password_hash     | VARCHAR(255)| Hashed password for security            |
+
+#### **MongoDB** (NoSQL Database)
+**Reason**: Used for storing flexible, semi-structured data such as product catalogs, user preferences, and activity logs.
+
+##### Key Collections:
+- **User Preferences**: Stores personalized user data like favorite products and recent searches.
+- **Product Catalog**: Stores dynamic product information including special offers and promotional details.
+- **Activity Logs**: Logs user interactions such as product searches, cart additions, and order placements.
+
+#### **Redis** (In-memory Database)
+**Reason**: Caches frequently accessed data to enhance performance, such as real-time order tracking and session management.
+
+##### Cache Use Cases:
+- **Product Search**: Caches the results of product searches to improve response times.
+- **User Sessions**: Stores user session data, such as cart items and preferences, for faster access.
+- **Order Tracking**: Caches live tracking data for orders to ensure users get timely updates.
+
+#### **Elasticsearch** (Search Engine Database)
+**Reason**: Provides fast, efficient full-text search capabilities for the product catalog.
+
+##### Key Indexes:
+- **Product Index**: Indexes product names, categories, and attributes for search optimization.
+- **User Search History**: Indexes user search history to offer personalized search results.
+
+### 7.3 Data Flow and Interaction Between Databases
+
+1. **User Places an Order**:
+    - **PostgreSQL** manages user authentication, order creation, and payment.
+    - **MongoDB** stores user preferences and shopping history for future recommendations.
+    - **Redis** caches session data and real-time order tracking.
+    - **Elasticsearch** provides quick and efficient search results for products.
+    - **Redis** ensures quick access to frequently accessed data like product catalogs and real-time order status.
+
+### 7.4 Backup and Data Redundancy
+- **PostgreSQL** and **MongoDB** will have daily backups for data redundancy.
+- **Redis** uses an eviction strategy to manage memory efficiently, with important data being backed up periodically.
+- **Elasticsearch** indexes are replicated across multiple nodes for fault tolerance.
+
+---
+
 
 
 
