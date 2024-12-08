@@ -17,6 +17,11 @@ This diagram represents the activity of placing an order in the Blinkit system
 ![WhatsApp Image 2024-12-08 at 08 48 57_b7366f0e](https://github.com/user-attachments/assets/79b16371-8617-4266-9a3e-5749277996d4)
 
 
+## Data Flow Diagram
+
+![WhatsApp Image 2024-12-08 at 17 18 21_fe4364d1](https://github.com/user-attachments/assets/73baa3b2-852e-43ff-b8e0-f29ef1104c1b)
+
+
 ## Abuse Case Diagram
 This diagram shows potential misuse or abuse scenarios in the system, highlighting security risks.
 
