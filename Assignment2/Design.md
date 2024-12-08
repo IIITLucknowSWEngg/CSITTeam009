@@ -127,15 +127,6 @@ The app's interface emphasizes ease of navigation and quick access to key functi
 
 ## Dashboard
 
-| Section           | Description                                          | Example                        |
-|-------------------|------------------------------------------------------|--------------------------------|
-| **User Information** | Displays the user's name and profile picture.       | "John Doe, 25XP"               |
-| **Progress Tracker** | Shows the user's order and delivery progress.       | "80% of orders delivered"      |
-| **Daily Goal**      | Displays the user's daily order or shopping target. | "Complete 5 orders today"      |
-| **Streak Status**   | Shows the user's current order streak.              | "Streak: 5 days"               |
-| **Leaderboard**     | Displays the user's ranking based on order volume.  | "Rank: 3rd"                    |
-
-
 ![Dashboard](https://github.com/user-attachments/assets/c046d6a5-5b76-414e-8b0f-b6076383652b)
 
 
