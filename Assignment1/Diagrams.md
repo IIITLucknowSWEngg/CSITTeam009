@@ -1,10 +1,10 @@
 ## State diagram 
-represents the lifecycle of an order in the Blinkit system
+This diagram represents the lifecycle of an order in the Blinkit system
 ![WhatsApp Image 2024-12-08 at 08 47 44_c9f5f9d6](https://github.com/user-attachments/assets/96d98199-0e20-4b5d-9f65-0849b848a2d0)
 
 
 ## Activity Diagram
-represents the activity of placing an order in the Blinkit system.
+ this diagram represents the activity of placing an order in the Blinkit system.
 ![WhatsApp Image 2024-12-08 at 08 48 57_b7366f0e](https://github.com/user-attachments/assets/79b16371-8617-4266-9a3e-5749277996d4)
 
 
