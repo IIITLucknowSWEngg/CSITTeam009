@@ -45,26 +45,6 @@ This document defines the requirements and expectations of customers (buyers) us
 ---
 
 
-## Non-Functional Requirements  
-
-### 1. **Performance**  
-- The platform should load within 2 seconds under normal network conditions.  
-- The system must be capable of handling high traffic volumes during peak shopping hours.
-
-### 2. **Security**  
-- All user data, including payment information, must be encrypted both in transit and at rest.  
-- The platform must comply with privacy regulations such as GDPR for data protection.
-
-### 3. **Usability**  
-- The platform must be intuitive and user-friendly, ensuring easy navigation and a seamless shopping experience across all device types.  
-- The UI must be responsive, providing a smooth experience on mobile and desktop devices.
-
-### 4. **Reliability**  
-- The platform must maintain an uptime of 99.9%, with minimal downtime for maintenance.  
-- Data backup systems should be in place to ensure no loss of customer information in case of system failure.
-
----
-
 ## User Interface Requirements  
 
 ### 1. **Search and Discovery**  
