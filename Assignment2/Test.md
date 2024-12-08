@@ -79,3 +79,66 @@ Testing is a critical phase in the development of the Blinkit Application to ens
 ---
 
 This structured testing approach ensures the Blinkit Application meets functional requirements while delivering a reliable, secure, and user-friendly experience.
+1. Introduction
+
+Project Name: Blinket
+Version: vX.X
+Author: [Your Name]
+Date: [MM/DD/YYYY]
+Objective: Outline the test strategy, scope, and plan for validating the functionality, performance, and usability of the Blinket software.
+
+2. Scope
+
+Features to be tested:
+[Feature 1]
+[Feature 2]
+[Feature 3]
+Features not to be tested:
+[Feature A] (Reason: Out of scope for this release)
+
+3. Test Strategy
+
+Testing Types:
+Unit Testing
+Integration Testing
+System Testing
+Regression Testing
+Environments:
+Operating System: [Windows/Linux/Mac]
+Browsers: [Chrome, Firefox, Safari]
+Hardware: [Device specifications]
+
+4. Test Cases
+
+Test Case ID	Description	Steps	Expected Result	Status
+TC-001	Login functionality	1. Open app; 2. Enter credentials; 3. Submit	User is logged in successfully	Pass/Fail
+TC-002	Password reset	1. Navigate to reset; 2. Enter email	Password reset email is sent successfully	Pass/Fail
+
+5. Tools
+
+Test Management Tool: [JIRA/TestRail/Other]
+Automation Tools: [Selenium, Cypress, etc.]
+Bug Reporting Tool: [Bugzilla, GitHub Issues, etc.]
+
+6. Risks and Mitigation
+
+Risk: [Describe any potential risk]
+Mitigation: [Propose a solution]
+
+7. Test Schedule
+
+Milestone	Target Date	Responsible
+Test Plan Completion	[MM/DD/YYYY]	[Person/Team]
+Test Execution Start	[MM/DD/YYYY]	[Person/Team]
+
+8. Reporting
+
+Metrics:
+Test Case Execution: [Number Passed/Failed]
+Bug Tracking: [Open/Closed Issues]
+
+9. Approval
+
+Name	Role	Signature
+[Name 1]	[Role 1]	[Signature]
+
