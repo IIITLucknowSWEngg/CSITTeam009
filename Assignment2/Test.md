@@ -82,28 +82,37 @@ This structured testing approach ensures the Blinkit Application meets functiona
 1. Introduction
 
 Project Name: Blinket
+
 Version: vX.X
+
 Author: [Your Name]
+
 Date: [MM/DD/YYYY]
+
 Objective: Outline the test strategy, scope, and plan for validating the functionality, performance, and usability of the Blinket software.
 
 2. Scope
 
 Features to be tested:
-[Feature 1]
-[Feature 2]
-[Feature 3]
+[Search Browsing]
+[Payment Processing]
+[Adding items to cart]
 Features not to be tested:
-[Feature A] (Reason: Out of scope for this release)
+[Product] (Reason: Out of scope for this release)
 
 3. Test Strategy
 
 Testing Types:
 Unit Testing
+
 Integration Testing
+
 System Testing
+
 Regression Testing
+
 Environments:
+
 Operating System: [Windows/Linux/Mac]
 Browsers: [Chrome, Firefox, Safari]
 Hardware: [Device specifications]
@@ -111,8 +120,13 @@ Hardware: [Device specifications]
 4. Test Cases
 
 Test Case ID	Description	Steps	Expected Result	Status
-TC-001	Login functionality	1. Open app; 2. Enter credentials; 3. Submit	User is logged in successfully	Pass/Fail
-TC-002	Password reset	1. Navigate to reset; 2. Enter email	Password reset email is sent successfully	Pass/Fail
+TC-001	Login functionality	
+1. Open app;
+2.  2. Enter credentials;
+3. 3. Submit	User is logged in successfully	Pass/Fail
+TC-002	Password reset
+1. Navigate to reset;
+2. 2. Enter email	Password reset email is sent successfully	Pass/Fail
 
 5. Tools
 
