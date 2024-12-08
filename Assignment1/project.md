@@ -1,90 +1,94 @@
-# Blinkit Project
+# Project Scope for Blinkit Competitor
 
-## Overview
+## Included Features:
 
-### Project Name
-**Blinkit**
+### 1. **User Registration and Profile Setup:**
+- Sign-up and login using email, phone number, or social media accounts.
+- Profile creation with user details (name, address, preferences, etc.).
+- Option to upload profile pictures.
+- Password reset and account recovery functionality.
 
-### Objective
-A grocery delivery web and mobile app, similar to Blinkit.
+### 2. **Product Search and Discovery:**
+- Search functionality for products by name, category, or brand.
+- Filters and sorting options (price, rating, discounts, etc.).
+- Personalized product recommendations based on past browsing and purchase history.
+- Ability to view product details (images, descriptions, price, specifications).
 
-### Users
-- General users (customers)
-- Store owners
-- Admin
+### 3. **Shopping Cart and Checkout:**
+- Add products to the shopping cart with the ability to modify quantities.
+- Secure checkout process with multiple payment options (credit/debit cards, wallets, cash on delivery).
+- Order review page before payment with product details and total cost.
+- Option to apply discount codes or coupons during checkout.
 
-## Features
+### 4. **Order Management and Tracking:**
+- Real-time order tracking, showing the current status of deliveries (processing, out for delivery, delivered).
+- Order history with details like items purchased, delivery date, and total cost.
+- Option to reorder previous items with a single click.
 
-### User Features
-- User Authentication
-- Store Search
-- Product Browsing
-- Cart Management
-- Order Placement
-- Order Tracking
-- Review & Rating
+### 5. **Product Reviews and Ratings:**
+- Customers can submit product reviews and ratings based on their experience.
+- Option to report issues with products or leave suggestions.
+- Display product reviews and ratings on the product page.
 
-### Store Features
-- Store Registration
-- Product Management
-- Order Management
-- Analytics Dashboard
+### 6. **Push Notifications and Alerts:**
+- Notifications for order status updates (shipped, out for delivery, delivered).
+- Alerts for flash sales, discounts, or new product launches.
+- Push notifications for abandoned cart reminders.
 
-### Admin Features
-- User Management
-- Store Management
-- Order Monitoring
-- Reports & Analytics
+### 7. **Customer Support:**
+- In-app support system with FAQs, chat support, and email assistance.
+- Option to request returns or refunds for damaged or incorrect products.
+- Integration with live chat or chatbots for quicker assistance.
 
-## Tech Stack
+### 8. **Admin Panel:**
+- Admin dashboard for managing users, products, orders, and reviews.
+- Ability to monitor order statuses and resolve issues.
+- Option to manage product listings, including adding new products or updating existing ones.
+- Access to sales analytics and performance tracking for products.
 
-| Layer       | Technologies                                |
-|-------------|---------------------------------------------|
-| **Frontend**| React.js, Recoil, Tailwind CSS              |
-| **Backend** | Node.js, Express.js, MongoDB                |
-| **Tools**   | Stripe, Google Maps API, AWS S3, Socket.IO  |
+### 9. **Order Customization and Preferences:**
+- Users can save delivery addresses and payment methods for quicker checkouts.
+- Ability to set preferences for product categories (e.g., groceries, electronics) to receive personalized recommendations.
+- Option to set delivery time preferences or select express delivery for urgent orders.
 
-## Setup Instructions
+---
 
+## Excluded Features:
 
-### Step 1; Fork the Repo
-### Step 2: Clone the forked Repo
-```bash
-git clone https://github.com/username/blinkit-clone.git
- ```
-### Step 3: Install all dependencies on the backend
-```bash
-cd server && npm install
-```
-### Step 4: Install all dependencies on the frontend
-```bash
-cd ../client && npm install
-```
-### Step 5: Run the backend 
-```bash
-cd ../server && npm run start
-```
-### Step 6: Run the frontend
-```bash
-cd ../client && npm run dev
-```
-## Usage Guide
+### 1. **Subscription Models:**
+- No subscription-based services (e.g., premium membership for exclusive deals or faster shipping).
+  
+### 2. **Third-Party Integrations:**
+- No integrations with external services like loyalty programs or external payment gateways beyond standard credit/debit cards and wallets.
 
-| Task                 | URL/Action                                         |
-|----------------------|----------------------------------------------------|
-| **User Registration**| `/signup`                                          |
-| **Explore Stores**   | Use search bar on the homepage                     |
-| **Place an Order**   | Browse products, add to cart, and checkout         |
-| **Track Order**      | Real-time updates from confirmation to delivery    |
-| **Store Dashboard**  | Manage products, view orders, update order status  |
+### 3. **Advanced Product Matching Algorithms:**
+- No AI-driven recommendations for products based on in-depth user behavior analysis beyond basic browsing history.
 
-## API Documentation
+### 4. **Social Media Integration:**
+- No social media sharing functionality for products or orders (e.g., sharing purchases on Facebook, Twitter).
 
-| Endpoint                | Description                                |
-|-------------------------|--------------------------------------------|
-| `POST /auth/register`   | Register a new user.                       |
-| `POST /auth/login`      | Authenticate a user.                       |
-| `GET /items`            | Get a list of all items available.         |
-| `GET /items/:id`        | Get detailed info of a specific item.     |
-| `POST /orders`          | Place a new order.                         |
-| `GET /orders/:id`       | Get order details.                         |
+### 5. **Multiple Language Support:**
+- The platform will support only one language (e.g., English) during the initial launch.
+
+### 6. **Multi-Platform Launch:**
+- The initial launch will focus on a single platform (e.g., Android), excluding iOS or web platforms.
+
+### 7. **Advertising and Sponsored Content:**
+- No advertisements or sponsored content within the platform in the early version.
+
+### 8. **AI-Powered Customer Support:**
+- No advanced AI-driven customer service solutions (e.g., chatbot with advanced machine learning capabilities).
+
+---
+
+## Additional Considerations:
+- **Performance**: The platform should be able to handle high traffic volumes, especially during sales events or promotions.
+- **Security**: Customer data, payment details, and product information must be encrypted and stored securely to comply with privacy regulations.
+- **Usability**: The app must be intuitive and user-friendly, especially for customers with limited tech experience.
+- **Scalability**: The system should be designed to scale as more users and products are added to the platform.
+- **Reliability**: The platform should be reliable, with minimal downtime, and be able to recover from errors swiftly.
+
+---
+
+## Conclusion:
+This document outlines the feature set and scope for the Blinkit competitor project. It focuses on providing users with an easy-to-use and efficient shopping experience while excluding advanced features that are not necessary for the initial version. The project aims to deliver a robust platform for users to shop, track orders, and receive excellent customer support.
