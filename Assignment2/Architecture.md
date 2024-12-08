@@ -249,7 +249,7 @@ The **Component Diagram** drills down into the individual components of the back
 
 ```plantuml
 @startuml
-title Blinkit Clone Component Diagram
+title Blinkit Component Diagram
 
 actor "Customer" as customer
 actor "Delivery Executive" as delivery

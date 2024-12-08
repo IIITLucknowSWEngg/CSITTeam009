@@ -1,7 +1,7 @@
-# Project Scope and Methodology Document: Blinkit Clone
+# Project Scope and Methodology Document: Blinkit
 
 ## 1. Introduction
-The Blinkit Clone project aims to develop a robust and efficient platform replicating the core features of Blinkit, an instant delivery application. This platform will focus on enabling users to browse a wide range of products, place orders, track deliveries in real time, and manage their profiles. The objective is to deliver an intuitive, fast, and reliable grocery and essentials delivery experience.
+The Blinkit project aims to develop a robust and efficient platform replicating the core features of Blinkit, an instant delivery application. This platform will focus on enabling users to browse a wide range of products, place orders, track deliveries in real time, and manage their profiles. The objective is to deliver an intuitive, fast, and reliable grocery and essentials delivery experience.
 
 
 
@@ -77,7 +77,7 @@ Provide live order status updates and notifications to keep users informed.
 - **Product Owner**: Maintains the vision and prioritizes features.
 - **Development Team**: Responsible for implementation.
 - **QA Team**: Ensures quality through rigorous testing.
-- **End Users**: Customers using the Blinkit Clone for instant deliveries.
+- **End Users**: Customers using the Blinkit for instant deliveries.
 
 
 ## 6. Methodology

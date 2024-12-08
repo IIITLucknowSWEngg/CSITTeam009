@@ -1,4 +1,4 @@
-# Software Requirement Specification (SRS) for Blinkit Clone
+# Software Requirement Specification (SRS) for Blinkit
 
 ## 1. Introduction
 
