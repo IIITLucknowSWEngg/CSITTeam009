@@ -27,18 +27,6 @@ Functional requirements ensure the platform delivers a seamless and efficient gr
 
 ---
 
-### 2. Purpose of Using AI  
-**File Name:** `Purpose.md`  
-
-**Prompt:** "What are the main purposes of using AI in documentation and development for a delivery app?"  
-
-**Response:**  
-- **Feature Refinement:** Enhance clarity and precision when defining delivery and inventory management requirements.  
-- **Documentation Assistance:** Streamline the creation of URDs, SRSs, and deployment strategies.  
-- **Technical Explanations:** Simplify complex topics like route optimization algorithms, payment gateway integration, and database indexing.  
-- **UI/UX Design Support:** Refine the documentation of user-centric layouts and intuitive navigation flows.  
-
----
 
 ### 3. Refining User Engagement and Order Management Requirements  
 **File Name:** `URD.md`  
