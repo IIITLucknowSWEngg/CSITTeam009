@@ -125,16 +125,16 @@ The app's interface emphasizes ease of navigation and quick access to key functi
 
 ![LoginPage](https://github.com/user-attachments/assets/471d9dd4-8765-4a72-b911-e3a91d52c25e)
 
+##Dashboard
 
-## Dashboard
+| Section           | Description                                          | Example                        |
+|-------------------|------------------------------------------------------|--------------------------------|
+| **User Information** | Displays the user's name and profile picture.       | "John Doe, 25XP"               |
+| **Progress Tracker** | Shows the user's order and delivery progress.       | "80% of orders delivered"      |
+| **Daily Goal**      | Displays the user's daily order or shopping target. | "Complete 5 orders today"      |
+| **Streak Status**   | Shows the user's current order streak.              | "Streak: 5 days"               |
+| **Leaderboard**     | Displays the user's ranking based on order volume.  | "Rank: 3rd"                    |
 
-| **Section**      | **Description**                                      | **Example**               |
-|------------------|------------------------------------------------------|---------------------------|
-| User Information | Displays the user's name and profile picture.       | "John Doe, 25XP"          |
-| Progress Tracker | Shows the user's learning progress (percentage).    | "80% completed"           |
-| Daily Goal       | Displays the user's daily learning target.          | "Complete 3 lessons"      |
-| Streak Status    | Shows the user's current streak.                    | "Streak: 5 days"          |
-| Leaderboard      | Displays the user's ranking based on points.        | "Rank: 3rd"               |
 
 ![Dashboard](https://github.com/user-attachments/assets/c046d6a5-5b76-414e-8b0f-b6076383652b)
 
