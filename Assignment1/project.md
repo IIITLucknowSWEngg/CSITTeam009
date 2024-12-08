@@ -53,34 +53,6 @@
 
 ---
 
-## Excluded Features:
-
-### 1. **Subscription Models:**
-- No subscription-based services (e.g., premium membership for exclusive deals or faster shipping).
-  
-### 2. **Third-Party Integrations:**
-- No integrations with external services like loyalty programs or external payment gateways beyond standard credit/debit cards and wallets.
-
-### 3. **Advanced Product Matching Algorithms:**
-- No AI-driven recommendations for products based on in-depth user behavior analysis beyond basic browsing history.
-
-### 4. **Social Media Integration:**
-- No social media sharing functionality for products or orders (e.g., sharing purchases on Facebook, Twitter).
-
-### 5. **Multiple Language Support:**
-- The platform will support only one language (e.g., English) during the initial launch.
-
-### 6. **Multi-Platform Launch:**
-- The initial launch will focus on a single platform (e.g., Android), excluding iOS or web platforms.
-
-### 7. **Advertising and Sponsored Content:**
-- No advertisements or sponsored content within the platform in the early version.
-
-### 8. **AI-Powered Customer Support:**
-- No advanced AI-driven customer service solutions (e.g., chatbot with advanced machine learning capabilities).
-
----
-
 ## Additional Considerations:
 - **Performance**: The platform should be able to handle high traffic volumes, especially during sales events or promotions.
 - **Security**: Customer data, payment details, and product information must be encrypted and stored securely to comply with privacy regulations.
