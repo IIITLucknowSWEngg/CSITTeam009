@@ -102,14 +102,6 @@ Features not to be tested:
 
 3. Test Strategy
 
-Testing Types:
-Unit Testing
-
-Integration Testing
-
-System Testing
-
-Regression Testing
 
 Environments:
 
@@ -122,11 +114,13 @@ Hardware: [Device specifications]
 Test Case ID	Description	Steps	Expected Result	Status
 TC-001	Login functionality	
 1. Open app;
-2.  2. Enter credentials;
-3. 3. Submit	User is logged in successfully	Pass/Fail
+1. Enter credentials;
+3. Submit	User is logged in successfully	Pass/Fail
+   
 TC-002	Password reset
+
 1. Navigate to reset;
-2. 2. Enter email	Password reset email is sent successfully	Pass/Fail
+2. Enter email	Password reset email is sent successfully	Pass/Fail
 
 5. Tools
 
@@ -139,20 +133,4 @@ Bug Reporting Tool: [Bugzilla, GitHub Issues, etc.]
 Risk: [Describe any potential risk]
 Mitigation: [Propose a solution]
 
-7. Test Schedule
-
-Milestone	Target Date	Responsible
-Test Plan Completion	[MM/DD/YYYY]	[Person/Team]
-Test Execution Start	[MM/DD/YYYY]	[Person/Team]
-
-8. Reporting
-
-Metrics:
-Test Case Execution: [Number Passed/Failed]
-Bug Tracking: [Open/Closed Issues]
-
-9. Approval
-
-Name	Role	Signature
-[Name 1]	[Role 1]	[Signature]
 
