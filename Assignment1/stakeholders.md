@@ -191,6 +191,54 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Interest**: Medium  
 - **Category**: External
 
+
+## System Access and Login Permissions
+
+In the Blinkit platform, different stakeholders have varying levels of system access and login permissions based on their role and responsibilities. Below is a breakdown of who can log into the system and the level of access granted:
+
+### Internal Users (Internal Stakeholders)
+
+- **Software Development Team**  
+  **Access:** Full access to development and staging environments.  
+  **Permissions:** Ability to modify source code, access databases, manage platform features.
+
+- **Product Managers**  
+  **Access:** Admin access to the product management console.  
+  **Permissions:** Ability to manage product features, prioritize tasks, and communicate with the development team.
+
+- **UI/UX Designers**  
+  **Access:** Restricted access to user interfaces and design prototypes.  
+  **Permissions:** Modify and review design mockups, conduct user research, and suggest changes based on testing.
+
+- **Quality Assurance (QA) Team**  
+  **Access:** Restricted access to the staging platform.  
+  **Permissions:** Conduct testing, report bugs, access logs for issue resolution.
+
+- **DevOps Engineers**  
+  **Access:** Full access to the infrastructure and deployment tools.  
+  **Permissions:** Manage deployment, configure servers, handle scaling and resource allocation.
+
+- **Logistics Team**  
+  **Access:** Access to order management and delivery tracking systems.  
+  **Permissions:** Track orders, update delivery statuses, coordinate with suppliers and drivers.
+
+- **Cybersecurity Team**  
+  **Access:** Full access to security monitoring systems and logs.  
+  **Permissions:** Monitor vulnerabilities, implement fixes, ensure data protection.
+
+- **Marketing and Growth Team**  
+  **Access:** Access to customer data and analytics tools.  
+  **Permissions:** Monitor marketing campaigns, analyze user engagement, adjust strategies based on data.
+
+### External Users (External Stakeholders)
+
+- **Customers**  
+  **Access:** Access to the front-end platform (mobile app or website).  
+  **Permissions:** Browse products, place orders, provide feedback, track deliveries.
+
+- **Suppliers**  
+  **Access:** Supplier portal.  
+
 ---
 
 ## Stakeholder Register Table
