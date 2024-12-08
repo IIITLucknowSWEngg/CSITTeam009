@@ -16,6 +16,10 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: High  
 - **Interest**: High  
 - **Category**: Internal
+**Login Permissions:**  
+- Full access to development tools, issue trackers, and staging environments.  
+- Limited access to the production environment for debugging purposes.
+
 
 ### 2. **Product Managers**
 - **Role**: Define product vision and manage feature roadmap.
@@ -26,6 +30,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: High  
 - **Interest**: High  
 - **Category**: Internal
+**Login Permissions:**  
+- Access to project management tools, analytics dashboards, and stakeholder feedback portals.
+
 
 ### 3. **UI/UX Designers**
 - **Role**: Design intuitive and easy-to-use interfaces.
@@ -36,6 +43,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: Medium  
 - **Interest**: High  
 - **Category**: Internal
+**Login Permissions:**  
+- Access to design tools, user testing platforms, and prototype sharing portals.
+
 
 ### 4. **Quality Assurance (QA) Team**
 - **Role**: Test and validate the platform’s functionality and performance.
@@ -46,6 +56,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: Medium  
 - **Interest**: High  
 - **Category**: Internal
+**Login Permissions:**  
+- Access to testing environments, bug tracking systems, and automated testing suites.
+
 
 ### 5. **DevOps Engineers**
 - **Role**: Manage cloud infrastructure and deployment pipelines.
@@ -56,6 +69,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: High  
 - **Interest**: Medium  
 - **Category**: Internal
+**Login Permissions:**  
+- Access to cloud platforms, deployment pipelines, and monitoring tools.
+
 
 ### 6. **Data Analysts and Scientists**
 - **Role**: Analyze user behavior and system performance to improve the platform.
@@ -66,6 +82,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: Medium  
 - **Interest**: High  
 - **Category**: Internal
+**Login Permissions:**  
+- Access to analytics dashboards and data visualization tools.
+
 
 ### 7. **Cybersecurity Team**
 - **Role**: Ensure platform and data security.
@@ -76,6 +95,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: High  
 - **Interest**: Medium  
 - **Category**: Internal
+**Login Permissions:**  
+- Access to security monitoring tools, vulnerability scanners, and compliance audit systems.
+
 
 ### 8. **System Architects**
 - **Role**: Design the high-level architecture of the platform.
@@ -86,6 +108,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: High  
 - **Interest**: Medium  
 - **Category**: Internal
+**Login Permissions:**  
+- Access to architecture design tools and system documentation platforms.
+
 
 ### 9. **Customer Support Team**
 - **Role**: Provide technical support to users.
@@ -96,6 +121,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: Medium  
 - **Interest**: High  
 - **Category**: Internal
+**Login Permissions:**  
+- Access to customer support portals, ticketing systems, and chat support tools.
+
 
 ### 10. **Market Analysts**
 - **Role**: Analyze market trends to guide strategic decisions.
@@ -106,6 +134,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: Medium  
 - **Interest**: High  
 - **Category**: Internal (if in-house) or External (if outsourced)
+**Login Permissions:**  
+- Access to marketing analytics tools, campaign management platforms, and social media dashboards.
+
 
 ### 11. **Partnership Managers**
 - **Role**: Build and maintain relationships with suppliers, logistics providers, and partners.
@@ -150,6 +181,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: Medium  
 - **Interest**: Medium  
 - **Category**: External
+**Login Permissions:**  
+- Limited access to integration and testing environments.
+
 
 ### 2. **Customers**
 - **Role**: End-users who order groceries via the platform.
@@ -160,6 +194,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: Medium  
 - **Interest**: High  
 - **Category**: External
+**Login Permissions:**  
+- Access to the user portal for placing orders, viewing order history, and providing feedback.
+
 
 ### 3. **Suppliers**
 - **Role**: Provide and manage the inventory listed on the platform.
@@ -170,6 +207,9 @@ This document serves as a comprehensive Stakeholder Register for the Blinkit pro
 - **Influence**: High  
 - **Interest**: High  
 - **Category**: External
+**Login Permissions:**  
+- Access to supplier dashboards for inventory updates and analytics.
+
 
 ### 4. **Regulators**
 - **Role**: Ensure the platform complies with legal and regulatory requirements.
