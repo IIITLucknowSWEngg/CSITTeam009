@@ -1,4 +1,4 @@
-# Blinkit Clone
+# Blinkit Project
 
 ## Overview
 
