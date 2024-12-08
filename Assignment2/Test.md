@@ -36,7 +36,7 @@ describe('Blinkit User Registration', function() {
     expect(browser.getUrl()).to.include('/login');
   });
 });
-
+```
 # Blinkit - User Login Test
 
 ## Feature: User Login
@@ -74,6 +74,7 @@ describe('Blinkit User Login', function() {
     expect(browser.getUrl()).to.include('/dashboard');
   });
 });
+```
 # Blinkit - Product Browsing Test
 
 ## Feature: Product Browsing
@@ -116,6 +117,7 @@ describe('Blinkit Product Browsing', function() {
     expect(productPage.getSearchResults()).to.include('Banana');
   });
 });
+```
 
 # Blinkit - Order Placement Test
 
@@ -159,6 +161,7 @@ describe('Blinkit Order Placement', function() {
     expect(browser.getUrl()).to.include('/order-confirmation');
   });
 });
+```
 
 # Blinkit - Profile Management Test
 
@@ -201,3 +204,4 @@ describe('Blinkit Profile Management', function() {
     expect(profilePage.getSuccessMessage()).to.equal('Profile updated successfully');
   });
 });
+```
